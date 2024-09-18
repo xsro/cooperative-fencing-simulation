@@ -4,4 +4,8 @@ Collection of simulations unde FENCING https://doi.org/10.1016/j.automatica.2019
 Each folder of this project's root folder is a standalone simulation.
 `main*.m` is the entry of each simulation.
 
+## https://ezgif.com/optimize
+
+![](chen2019/chen2019-ezgif.com-optimize.gif)
+
 
