@@ -8,11 +8,11 @@ Each folder of this project's root folder is a standalone simulation.
 
 ### [A cooperative target-fencing protocol of multiple vehicles](https://doi.org/10.1016/j.automatica.2019.05.034)
 
-![](chen2019/chen2019-ezgif.com-optimize.gif)
+![](chen2019/2019chen-ezgif.com-optimize.gif)
 
 ### [Cooperative Label-Free Moving Target Fencing for Second-Order Multi-Agent Systems with Rigid Formation](https://doi.org/10.1016/j.automatica.2024.111558)
 
-![](hu2024/hu2024labelfree-ezgif.com-optimize.gif)
+![](hu2024/2024hulabelfree-ezgif.com-optimize.gif)
 
 
 ## Acknowledgement
