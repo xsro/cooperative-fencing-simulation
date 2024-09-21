@@ -33,7 +33,14 @@ function [dxdt,s]=rhs(t,x,p)
             if dij>p.max_distance
                 continue
             end
-            alpha=1/(dij-p.min_distance)-1/(p.max_distance-p.min_distance);
+            if dij<p.min_distance
+                alpha=inf;
+            else
+                alpha=1/(dij-p.min_distance)-1/(p.max_distance-p.min_distance);
+            end
+            if alpha>p.alpha_max
+                alpha=p.alpha_max;
+            end
             repulse=repulse+alpha*xij/vecnorm(xij);
         end
         
