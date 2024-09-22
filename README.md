@@ -10,9 +10,16 @@ Each folder of this project's root folder is a standalone simulation.
 
 ![](fence2019chen/chen2019-ezgif.com-optimize.gif)
 
+### [基于输出反馈线性化的多移动机器人目标包围控制](https://doi.org/10.16383/j.aas.c200335)
+
+Why the formation rotate about the target while the simulation in the original paper does not?
+
+![](fence2022kou小车/kou2022-ezgif.com-added-text.gif)
+
 ### [Cooperative Label-Free Moving Target Fencing for Second-Order Multi-Agent Systems with Rigid Formation](https://doi.org/10.1016/j.automatica.2024.111558)
 
 ![](fence2024hu/hu2024labelfree-ezgif.com-optimize.gif)
+
 
 
 ## Acknowledgement

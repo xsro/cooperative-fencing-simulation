@@ -1,14 +1,14 @@
 %% 参数定义
 params=struct();
-params.r0=@(t)[t,0]';        %目标位置
-params.v0=@(t)[1,0]';        %目标位置
+params.r0=@(t)[0.1*t,0]';        %目标位置
+params.v0=@(t)[0.1,0]';        %目标位置
 agents=[0 0 5 5;0 5 0 5];    %智能体位置
 params.max_distance=3;       %邻居距离
 params.min_distance=1;       %避障距离
 params.offset=0.01;          %共线容许最大角度
-params.k=10;                  %目标吸引增益
+params.k=1;                  %目标吸引增益
 params.N=size(agents,2);     %智能体个数
-tfinal=30;
+tfinal=1000;
 
 initial=reshape([agents;rand(3,params.N)],[],1);      % 闭合多智能体系统所有状态
 [dxdt0,s0]=rhs(0,initial,params);  % 
@@ -20,20 +20,34 @@ opt=odeset("OutputSel",idx(4,:),"OutputFcn","odeplot");
     reshape(initial,[],1),opt);
 r0=zeros(length(t),2);
 v0=zeros(length(t),2);
+s=repmat(s0,length(t),1);
 for i=1:length(t)
     r0(i,:)=params.r0(t(i))';
     v0(i,:)=params.v0(t(i))';
+    [dxdti,si]=rhs(t(i),x(i,:)',params);
+    s(i)=si;
 end
 
-%% 速度观测
+%% 合围效果
 figure;
 nexttile
 plot(t,x(:,idx(4,:)))
 grid on;
+title("estimation of vx")
 nexttile
 plot(t,x(:,idx(5,:)))
 grid on
-
+title("estimation of vy")
+nexttile
+plot(t,vertcat(s.u));
+ylim([0,2])
+grid on;
+title("velocity of the car ui")
+nexttile
+plot(t,vertcat(s.w));
+ylim([-0.5,0.5])
+grid on;
+title("angular velocity of the car \omega_i")
 
 return
 %% 绘制30秒时的结果

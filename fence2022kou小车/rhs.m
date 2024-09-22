@@ -1,7 +1,6 @@
 %% 实现
 function [dxdt,s]=rhs(t,x,p)
-    s=struct();
-    s.t=t;  % 这句不用
+    s=struct("u",zeros(1,p.N),"w",zeros(1,p.N));
     states=reshape(x,[],p.N);
     dstates=zeros(size(states));
     r0=p.r0(t);
@@ -29,8 +28,9 @@ function [dxdt,s]=rhs(t,x,p)
         Q=diag([1 p.offset]);
         R=[cos(thetai) -sin(thetai);
            sin(thetai)  cos(thetai)];
-        u0=-p.k*(ri2-r0)+repulse+vi;
-        ui=inv(Q)*inv(R)*u0;
+        ui0=-p.k*(ri2-r0)+repulse+vi;
+        ui=inv(Q)*inv(R)*ui0;
+        s.u(i)=ui(1);s.w(i)=ui(2);
         dstates(1:2,i)=[cos(thetai);sin(thetai)]*ui(1);
         dstates(3,i)=ui(2);
         dstates(4:5,i)=-p.k*(ri2-r0)+repulse;

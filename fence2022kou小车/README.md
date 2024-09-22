@@ -5,6 +5,7 @@
 
 - 关键词 协同控制, 非完整约束, 分布式控制, 反馈线性化  
 - 引用格式 寇立伟, 项基. 基于输出反馈线性化的多移动机器人目标包围控制. 自动化学报, 2022, 48(5): 1285−1291  DOI 10.16383/j.aas.c200335 
+- https://blog.sciencenet.cn/blog-3291369-1331021.html
 
 ## Target Fencing Control of Multiple Mobile Robots Using Output Feedback Linearization  
 
