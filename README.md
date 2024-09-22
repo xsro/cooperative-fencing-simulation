@@ -14,7 +14,7 @@ Each folder of this project's root folder is a standalone simulation.
 
 Why the formation rotate about the target while the simulation in the original paper does not?
 
-![](fence2022kou小车/kou2022-ezgif.com-added-text.gif)
+![](fence2022kou小车/kou2022-ezgif.com-optimize.gif)
 
 ### [Cooperative Label-Free Moving Target Fencing for Second-Order Multi-Agent Systems with Rigid Formation](https://doi.org/10.1016/j.automatica.2024.111558)
 
