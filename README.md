@@ -1,5 +1,5 @@
 # cooperative-fencing-simulation
-Collection of simulations of [FENCING](https://doi.org/10.1016/j.automatica.2019.05.034) algorithms in Multiagent System.
+Collection of simulations of [FENCING](https://doi.org/10.1016/j.automatica.2019.05.034) algorithms  and something relevant to this in Multiagent System.
 
 Each folder of this project's root folder is a standalone simulation.
 `main*.m` is the entry of each simulation.
@@ -23,6 +23,14 @@ Why the formation rotate about the target while the simulation in the original p
 ### [Target Circumnavigation of Mobile Robots in GPS-Denied Environments](https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html)
 
 ![](circumnav2024wang/circumnav2024wang-ezgif.com-optimize.gif)
+
+## relavant projects
+
+For more projects about multi-agent you may see [formation-control](https://github.com/topics/formation-control).
+
+- Python and MATLAB implementations of Flocking Algorithms and Formation Control [Formation-Control](https://github.com/Sang-Buster/Formation-Control)
+- Multi-robot control simulation environmrnt build on top on Mobile Robotics Simulation Toolbox, implemented 1)some algorithm for formation control 2)mapping, localization and SLAM based on Kalman filter.. [SwarmSim](https://github.com/yxiao1996/SwarmSim)
+- Let's reproduce paper simulations of multi-robot systems, formation control, distributed optimization and cooperative manipulation. [star2dust/paper-simulation](https://github.com/star2dust/paper-simulation)
 
 ## Acknowledgement
 
