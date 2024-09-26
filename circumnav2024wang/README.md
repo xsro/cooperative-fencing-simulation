@@ -1,0 +1,5 @@
+# Target Circumnavigation of Mobile Robots in GPS-Denied Environments
+
+https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html
+
+This letter investigates the target circumnavigation problem in harsh circumstances where global positioning system (GPS) signals are unavailable. That is, the positions of the mobile robot and the target are unknown. We suppose that the robot can obtain the distance to the target using ranging sensors. A dynamic output feedback controller using only the distance measurements (without explicit differentiation) is presented. When the target is stationary, the proposed control scheme guides the robot to converge globally to the desired orbit with the target as the center and a predeﬁned distance as the radius. It is also shown that the controller drives the distance between the robot and the target that moves slowly to converge to a small neighborhood of the desired constant. The proposed control scheme is beneﬁcial for low-cost vehicles to seek a target of interest in GPS-denied environments. The effectiveness of the control method is veriﬁed through computer simulations and practical experiments.
