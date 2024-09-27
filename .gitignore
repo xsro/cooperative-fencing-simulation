@@ -1,3 +1,5 @@
 *.gif
 !*ezgif.com-optimize.gif
 *.asv
+*.mat
+out
