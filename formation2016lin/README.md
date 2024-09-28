@@ -1,0 +1,1 @@
+# [A graph laplacian approach to coordinate-free formation stabilization for directed networks](https://ieeexplore.ieee.org/document/7153547/)
