@@ -1,0 +1,1 @@
+# [Winners take all: A reverse consensus model](http://arxiv.org/abs/2409.12407)
