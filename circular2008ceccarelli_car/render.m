@@ -17,7 +17,7 @@ for i=1:params.N
 end
 axis equal
 
-iend=sum(t<300);
+iend=sum(t<500);
 for it=1:10:iend
     title(sprintf("t=%.2f",t(it)));
     
@@ -41,5 +41,5 @@ for it=1:10:iend
     drawnow
     pause(0.01)
 
-    exportgraphics(gca,"circular1.gif","Append",i>3)
+    exportgraphics(gca,"circular2.gif","Append",i>3)
 end

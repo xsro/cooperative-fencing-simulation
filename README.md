@@ -20,9 +20,15 @@ Why the formation rotate about the target while the simulation in the original p
 
 ![](fence2024hu/hu2024labelfree-ezgif.com-optimize.gif)
 
+## Single agent encircle one target
+
 ### [Target Circumnavigation of Mobile Robots in GPS-Denied Environments](https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html)
 
 ![](circumnav2024wang/circumnav2024wang-ezgif.com-optimize.gif)
+
+## Multi agents encircle one target
+
+### [Collective circular motion of multi-vehicle systems](https://linkinghub.elsevier.com/retrieve/pii/S0005109808002951)
 
 ## relavant projects
 
