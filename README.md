@@ -30,6 +30,12 @@ Why the formation rotate about the target while the simulation in the original p
 
 ### [Collective circular motion of multi-vehicle systems](https://linkinghub.elsevier.com/retrieve/pii/S0005109808002951)
 
+## Multi agents encircle multi targets
+
+### [Time-Varying Formation Tracking for Linear Multiagent Systems With Multiple Leaders](https://doi.org/10.1109%2FTAC.2017.2673411)
+
+![](formationtracking2017dong/formationtracking-ezgif.com-optimize.gif)
+
 ## relavant projects
 
 For more projects about multi-agent you may see [formation-control](https://github.com/topics/formation-control).
